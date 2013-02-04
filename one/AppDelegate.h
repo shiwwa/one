@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Human.h"
+
+#import "Student.h"
+
 @class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -17,3 +21,4 @@
 @property (strong, nonatomic) ViewController *viewController;
 
 @end
+

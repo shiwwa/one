@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8D67D2316BFE79700A0737D /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D67D2216BFE79700A0737D /* Human.m */; };
+		B8D67D2616BFE7CF00A0737D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D67D2516BFE7CF00A0737D /* Student.m */; };
 		B8EA95D316BAF71800304F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EA95D216BAF71800304F8B /* UIKit.framework */; };
 		B8EA95D516BAF71800304F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EA95D416BAF71800304F8B /* Foundation.framework */; };
 		B8EA95D716BAF71800304F8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EA95D616BAF71800304F8B /* CoreGraphics.framework */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8D67D2116BFE79600A0737D /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Human.h; path = one/Human.h; sourceTree = "<group>"; };
+		B8D67D2216BFE79700A0737D /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Human.m; path = one/Human.m; sourceTree = "<group>"; };
+		B8D67D2416BFE7CF00A0737D /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = one/Student.h; sourceTree = "<group>"; };
+		B8D67D2516BFE7CF00A0737D /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = one/Student.m; sourceTree = "<group>"; };
 		B8EA95CE16BAF71800304F8B /* one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EA95D216BAF71800304F8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B8EA95D416BAF71800304F8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +65,10 @@
 		B8EA95C316BAF71800304F8B = {
 			isa = PBXGroup;
 			children = (
+				B8D67D2416BFE7CF00A0737D /* Student.h */,
+				B8D67D2516BFE7CF00A0737D /* Student.m */,
+				B8D67D2116BFE79600A0737D /* Human.h */,
+				B8D67D2216BFE79700A0737D /* Human.m */,
 				B8EA95D816BAF71800304F8B /* one */,
 				B8EA95D116BAF71800304F8B /* Frameworks */,
 				B8EA95CF16BAF71800304F8B /* Products */,
@@ -190,6 +200,8 @@
 				B8EA95E316BAF71800304F8B /* AppDelegate.m in Sources */,
 				B8EA95EC16BAF71800304F8B /* ViewController.m in Sources */,
 				B8EA95F816BAF73500304F8B /* User.m in Sources */,
+				B8D67D2316BFE79700A0737D /* Human.m in Sources */,
+				B8D67D2616BFE7CF00A0737D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +318,7 @@
 				B8EA95F416BAF71800304F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
